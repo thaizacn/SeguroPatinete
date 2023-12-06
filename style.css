@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar*/
+.fundo-img {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.logo {
+    z-index: 2;
+    margin: 20px;
+    width: 50px;
+    position: absolute;
+}
+
+main {
+    position: absolute;
+    background-color: #b5b93e;
+    width: 70%;
+    height: 100%;
+    z-index: 1;
+}
+
+.nav {
+    z-index: 3;
+    position: absolute;
+    right: 0;
+}
+
+li {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+} 
+
+i {
+    font-size: 20px;
+    margin: 30px;
+    display: inline;
+    cursor: pointer;
+}
+
+
+
+/* Corpo */
+main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.um {
+    position: absolute;
+    background-color: rgb(201, 201, 201);
+    left: 0;
+    padding-left: 50px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dois {
+    background-color: white;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.tit {
+    padding: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.tit {
+    margin-top: 30px;
+}
+
+.comp {
+    background-color: rgb(209, 209, 209);
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    text-indent: 15px;
+}
+
+.whats {
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3eb963;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.enviar {
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #463eb9;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
